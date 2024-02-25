@@ -15,3 +15,11 @@ HTTP status codes are standard response codes given by web servers on the intern
 | 3xx   | Redirection: Further action needs to be taken to complete the request. |
 | 4xx   | Client Error: There was an error on the client side. |
 | 5xx   | Server Error: The server encountered an error while processing the request. |
+
+
+## Informational (1xx)
+
+| Code | Description                                   |
+|------|-----------------------------------------------|
+| 100  | Continue: The client should continue with its request. |
+| 101  | Switching Protocols: The server is changing protocols, for example, switching to WebSocket. |
