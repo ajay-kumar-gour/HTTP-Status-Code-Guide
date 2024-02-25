@@ -24,3 +24,8 @@ HTTP status codes are categorized into several types based on their first digit.
 4xx - Client Error: These status codes indicate that there was an error on the client side, such as a malformed request or unauthorized access attempt. They are typically caused by issues with the request itself and require action from the client to resolve.
 
 5xx - Server Error: Server error status codes indicate that the server encountered an error while processing the request. These errors are typically caused by issues on the server side and require action from the server administrator to resolve.
+
+
+Informational (1xx)
+100 Continue: The client should continue with its request.
+101 Switching Protocols: The server is changing protocols, for example, switching to WebSocket.
