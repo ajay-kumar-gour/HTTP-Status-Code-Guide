@@ -8,3 +8,19 @@ HTTP status codes are standard response codes given by web servers on the intern
 They communicate the status of the HTTP request made by a client, such as a web browser or an API consumer. 
 These status codes are three-digit numbers grouped into different categories, each representing a specific outcome of the request-response cycle. 
 They provide valuable information about whether a request was successful, encountered an error, or requires further action
+
+
+
+Types of status codes
+----------------------
+HTTP status codes are categorized into several types based on their first digit. These types provide a high-level understanding of the outcome of a client's request. Here are the main types of HTTP status codes:
+
+1xx - Informational: These status codes indicate that the server has received the request and is continuing the process. They are informational and typically do not require any action from the client.
+
+2xx - Success: This category signifies that the request was received, understood, and accepted by the server. These codes indicate successful outcomes and are returned when the server successfully processes the client's request.
+
+3xx - Redirection: Redirection status codes inform the client that further action needs to be taken to complete the request. They indicate that the client must take additional steps, such as redirecting to a different URL or using a different protocol.
+
+4xx - Client Error: These status codes indicate that there was an error on the client side, such as a malformed request or unauthorized access attempt. They are typically caused by issues with the request itself and require action from the client to resolve.
+
+5xx - Server Error: Server error status codes indicate that the server encountered an error while processing the request. These errors are typically caused by issues on the server side and require action from the server administrator to resolve.
