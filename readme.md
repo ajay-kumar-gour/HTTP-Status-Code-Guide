@@ -17,23 +17,23 @@ HTTP status codes are standard response codes given by web servers on the intern
 | 5xx  | Server Error: The server encountered an error while processing the request.       |
 
 ## Informational (1xx)
-
-| Code | Description                                                                                 |
-| ---- | ------------------------------------------------------------------------------------------- |
-| 100  | Continue: The client should continue with its request.                                      |
-| 101  | Switching Protocols: The server is changing protocols, for example, switching to WebSocket. |
+| Code | Name                  | Description                                                                                 |
+|------|-----------------------|---------------------------------------------------------------------------------------------|
+| 100  | Continue              | The client should continue with its request.                                                |
+| 101  | Switching Protocols   | The server is changing protocols, for example, switching to WebSocket.                       |
 
 ## Success (2xx)
 
-| Code | Name                     | Description                                                                                                                                                                     |
-|------|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 200  | OK                       | The request was successful.                                                                                                                                                     |
-| 201  | Created                  | The request has been fulfilled, and a new resource is created.                                                                                                                 |
-| 202  | Accepted                 | The request has been accepted for processing, but the processing has not been completed.                                                                                      |
-| 203  | Non-Authoritative Information | The server is a transforming proxy that received a 200 OK response from its origin but is returning a modified version of the origin's response.                           |
-| 204  | No Content               | The server successfully processed the request but is not returning any content.                                                                                                 |
-| 205  | Reset Content            | The server successfully processed the request, and the user agent should reset the document view which caused the request to be sent.                                            |
-| 206  | Partial Content          | The server is delivering only part of the resource due to a range header sent by the client.                                                                                   |
+| Code | Name                          | Description                                                                                                                                      |
+| ---- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 200  | OK                            | The request was successful.                                                                                                                      |
+| 201  | Created                       | The request has been fulfilled, and a new resource is created.                                                                                   |
+| 202  | Accepted                      | The request has been accepted for processing, but the processing has not been completed.                                                         |
+| 203  | Non-Authoritative Information | The server is a transforming proxy that received a 200 OK response from its origin but is returning a modified version of the origin's response. |
+| 204  | No Content                    | The server successfully processed the request but is not returning any content.                                                                  |
+| 205  | Reset Content                 | The server successfully processed the request, and the user agent should reset the document view which caused the request to be sent.            |
+| 206  | Partial Content               | The server is delivering only part of the resource due to a range header sent by the client.                                                     |
+
 |
 
 ## Redirection (3xx)
