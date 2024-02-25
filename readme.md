@@ -83,15 +83,15 @@ HTTP status codes are standard response codes given by web servers on the intern
 
 ## Server Error (5xx)
 
-| Code | Description                                                                       |
-|------|-----------------------------------------------------------------------------------|
-| 500  | Internal Server Error: A generic error message, given when an unexpected condition was encountered on the server. |
-| 501  | Not Implemented: The server does not support the functionality required to fulfill the request. |
-| 502  | Bad Gateway: The server received an invalid response from an upstream server.      |
-| 503  | Service Unavailable: The server is currently unable to handle the request due to temporary overloading or maintenance. |
-| 504  | Gateway Timeout: The server was acting as a gateway or proxy and did not receive a timely response from the upstream server. |
-| 505  | HTTP Version Not Supported: The server does not support the HTTP protocol version used in the request. |
-| 506  | Variant Also Negotiates: Transparent content negotiation for the request results in a circular reference. |
-| 507  | Insufficient Storage: The server is unable to store the representation needed to complete the request. |
-| 508  | Loop Detected: The server detected an infinite loop while processing the request. |
-| 510  | Not Extended: Further extensions to the request are required for the server to fulfill. |
+| Code | Name                   | Description                                                                                   |
+|------|------------------------|-----------------------------------------------------------------------------------------------|
+| 500  | Internal Server Error  | A generic error message, given when an unexpected condition was encountered on the server.   |
+| 501  | Not Implemented       | The server does not support the functionality required to fulfill the request.                |
+| 502  | Bad Gateway            | The server received an invalid response from an upstream server.                               |
+| 503  | Service Unavailable    | The server is currently unable to handle the request due to temporary overloading or maintenance. |
+| 504  | Gateway Timeout        | The server was acting as a gateway or proxy and did not receive a timely response from the upstream server. |
+| 505  | HTTP Version Not Supported | The server does not support the HTTP protocol version used in the request.                      |
+| 506  | Variant Also Negotiates | Transparent content negotiation for the request results in a circular reference.               |
+| 507  | Insufficient Storage   | The server is unable to store the representation needed to complete the request.               |
+| 508  | Loop Detected          | The server detected an infinite loop while processing the request.                              |
+| 510  | Not Extended           | Further extensions to the request are required for the server to fulfill.                       |
