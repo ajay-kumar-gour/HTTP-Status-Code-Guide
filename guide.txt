@@ -38,3 +38,11 @@ Success (2xx)
 204 No Content: The server successfully processed the request but is not returning any content.
 205 Reset Content: The server successfully processed the request, and the user agent should reset the document view which caused the request to be sent.
 206 Partial Content: The server is delivering only part of the resource due to a range header sent by the client.
+
+Redirection (3xx)
+300 Multiple Choices: The requested resource has multiple representations, each with its own specific location.
+301 Moved Permanently: The requested resource has been permanently moved to a new location.
+302 Found: The requested resource temporarily resides under a different URI.
+303 See Other: The response to the request can be found under a different URI.
+304 Not Modified: The client can use cached data.
+307 Temporary Redirect: The requested resource resides temporarily under a different URI.
