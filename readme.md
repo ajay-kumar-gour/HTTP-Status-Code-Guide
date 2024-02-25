@@ -69,8 +69,7 @@ HTTP status codes are standard response codes given by web servers on the intern
 | 415    | Unsupported Media Type              | The server refuses to process the request because the entity's media type is unsupported.                        |
 | 416    | Range Not Satisfiable               | The client has asked for a portion of the file, but the server cannot supply that portion.                       |
 | 417    | Expectation Failed                  | The server cannot meet the requirements of the Expect request-header field.                                      |
-| Code   | Name                                | Description                                                                                                      |
-| ------ | ----------------------------------- | -----------------------------------------------------------------------------------------------                  |
+
 | 418    | I'm a teapot                        | This code was defined in 1998 as one of the traditional IETF April Fools' jokes.                                 |
 | 421    | Misdirected Request                 | The request was directed at a server that is not able to produce a response.                                     |
 | 422    | Unprocessable Entity                | The request was well-formed but was unable to be followed due to semantic errors.                                |
