@@ -1,4 +1,10 @@
-# Welcome to HTTP-Status-Code-Guide
+![HTTP-Status-Code-Guide](https://img.shields.io/badge/HTTP--Status--Code--Guide-purple?style=for-the-badge)
+![Informational (1XX)](https://img.shields.io/badge/Informational%20(1XX)-blue?style=flat-square)
+![Success (2XX)](https://img.shields.io/badge/Success%20(2XX)-green?style=flat-square)
+![Redirection (3XX)](https://img.shields.io/badge/Redirection%20(3XX)-yellow?style=flat-square)
+![Client Error (4XX)](https://img.shields.io/badge/Client%20Error%20(4XX)-orange?style=flat-square)
+![Server Error (5XX)](https://img.shields.io/badge/Server%20Error%20(5XX)-red?style=flat-square)
+# Welcome to HTTP-Status-Code-Guide 
 
 This repository provides a comprehensive list of HTTP status codes along with their categories and descriptions.
 
